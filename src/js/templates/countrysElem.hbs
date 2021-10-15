@@ -1,3 +1,8 @@
+<ul class="country__list">
+    {{#each this}}
+    <li class="country__list-item">{{name}}</li>
+    {{/each}}
+</ul>
 {{#each this}}
 <div class="country__info">
     <h2 class="country__title">{{name}}</h2>
@@ -10,7 +15,6 @@
             <p>Population: <span class="country__population">{{population}}</span></p>
             <p>Region:{{region}}</p>
             <p>language:</p>
-
             <ul class="country__languages-list">
                 {{#each languages}}
                 <li>{{name}}</li>

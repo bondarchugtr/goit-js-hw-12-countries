@@ -7,4 +7,16 @@
 @import './example';
 
 
+.country__info.hidden{
+    display: none;
+}
+
+.country__list-item{
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
 
