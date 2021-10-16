@@ -9,7 +9,6 @@ export default function fetchCountries(name) {
             if (response.status !== 400) {
                 return response.json();
             }
-
         }).catch(error => alert(errorNot));
 };
 
